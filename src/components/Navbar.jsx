@@ -6,10 +6,10 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] px-4 py-6 bg-gray-700'>
+    <div className='fixed w-full h-[80px] px-4 py-6 bg-gray-900'>
       <div className='flex justify-between items-center'>
       <div>
-       <h1 className='text-2xl text-white'>MK.</h1>
+       <h1 className='text-2xl text-white'>MK</h1>
        </div>
 
       {/*Main menu */}

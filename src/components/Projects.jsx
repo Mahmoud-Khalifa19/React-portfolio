@@ -7,7 +7,7 @@ import facialapi from '../assets/facialapi.png'
 
 const Projects = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-950 bg-gray-700'>
+    <div name='work' className='w-full md:h-screen  bg-gray-900 text-gray-950'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-900 text-gray-950'>
@@ -27,7 +27,7 @@ const Projects = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Aloha Apparel
               </span>
-              <p className='text-center'>Aloha Apparel</p>
+              <p className='text-center'>A Hawaii based clothing app</p>
               <div className='pt-8 text-center'>
                 <a href='https://mahmoud-khalifa19.github.io/Aloha-App/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -55,7 +55,7 @@ const Projects = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 NYT Instanews API
               </span>
-              <p className='text-center'>NYT Instanews API</p>
+              <p className='text-center'>A NYT Instanews app</p>
               <div className='pt-8 text-center'>
                 <a href='https://mahmoud-khalifa19.github.io/nyt-Instanews/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -81,7 +81,7 @@ const Projects = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Crwn Clothing
               </span>
-              <p className='text-center'>Crwn Clothing</p>
+              <p className='text-center'>An e-commerce clothing app</p>
               <div className='pt-8 text-center'>
                 <a href='https://mahmoud-khalifa19.github.io/crwn-clothing/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>

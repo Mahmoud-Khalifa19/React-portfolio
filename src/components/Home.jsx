@@ -2,13 +2,13 @@ import React from 'react';
 import { HiArrowNarrowDown } from 'react-icons/hi';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import { Typewriter } from 'react-simple-typewriter'
-import { Link } from 'react-scroll'
+
 
 
 const Home = () => {
   return (
 
-    <div name='home' className='w-full h-screen bg-gray-700'>
+    <div name='home' className='w-full h-screen bg-gray-900'>
     {/*Main container */}
     <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
       <div>
@@ -38,7 +38,7 @@ const Home = () => {
         <AiFillGithub />
         </a>
         </div>
-        <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-400 hover:border-gray-600'>
+        <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-600 hover:border-gray-600'>
         View My Work 
         <span className='animate-bounce'>
         <HiArrowNarrowDown className='ml-3' />

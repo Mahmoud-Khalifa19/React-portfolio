@@ -6,10 +6,11 @@ import ReactJS from '../assets/reactjs.png';
 import Node from '../assets/node.png';
 import Tailwind from '../assets/tailwind.png';
 import GitHub from '../assets/github.png';
+import Next from '../assets/nextjs.png';
 
 const Technologies = () => {
   return (
-    <div name='technologies' className='w-full h-screen bg-gray-700 text-gray-950'>
+    <div name='technologies' className='w-full h-screen bg-gray-900 text-gray-950'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className=' w-full flex justify-center items-center flex-col mb-7'>
@@ -53,6 +54,11 @@ const Technologies = () => {
                   <p className='my-4'>TAILWIND</p>
               </div>
 
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Next} alt='nextjs logo' />
+                  <p className='my-4'>NEXTJS (Currently learning)</p>
+              </div>
+              
           </div>
       </div>
     </div>
