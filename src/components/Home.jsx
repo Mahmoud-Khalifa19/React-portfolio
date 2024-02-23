@@ -2,6 +2,7 @@ import React from 'react';
 import { HiArrowNarrowDown } from 'react-icons/hi';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import { Typewriter } from 'react-simple-typewriter'
+import me from '../assets/me.jpg'
 
 
 
@@ -44,6 +45,7 @@ const Home = () => {
         <HiArrowNarrowDown className='ml-3' />
         </span>
         </button>
+        <img className="mx-auto w-50" src={me} alt="photo" />
         </div>
         </div>
      </div>

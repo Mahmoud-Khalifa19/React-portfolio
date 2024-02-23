@@ -1,6 +1,6 @@
 import React from 'react';
-import aloha from '../assets/aloha.png';
-import nyt from '../assets/nyt.png';
+import hawaii from '../assets/hawaii.png';
+import instanews from '../assets/instanews.png';
 import crwn from '../assets/crwn.png';
 import facialapi from '../assets/facialapi.png'
 
@@ -20,7 +20,7 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center'>
             {/* Grid */}
             <div
-            style={{ backgroundImage: `url(${aloha})` }}
+            style={{ backgroundImage: `url(${hawaii})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effect / Project 1 */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -46,7 +46,7 @@ const Projects = () => {
 
           {/* Project 2 */}
           <div
-           style={{ backgroundImage: `url(${nyt})` }}
+           style={{ backgroundImage: `url(${instanews})` }}
            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
 
@@ -57,12 +57,12 @@ const Projects = () => {
               </span>
               <p className='text-center'>A NYT Instanews app</p>
               <div className='pt-8 text-center'>
-                <a href='https://mahmoud-khalifa19.github.io/nyt-Instanews/'>
+                <a href='https://mahmoud-khalifa19.github.io/NYT-API/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Live
                   </button>
                 </a>
-                <a href='https://github.com/Mahmoud-Khalifa19/nyt-Instanews'>
+                <a href='https://github.com/Mahmoud-Khalifa19/NYT-API'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

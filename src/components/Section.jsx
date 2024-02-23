@@ -1,5 +1,5 @@
 import React from "react";
-import me from '../assets/me.jpg'
+
 
 
 const Section = () => { 
@@ -17,11 +17,7 @@ const Section = () => {
 
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           
-          <img 
-             src={me}
-             alt='logo image'
-             className='rounded-2xl mx-auto md:w-25 justify-center items-center'
-             />
+         
              <div className="sm:text text-2xl">
              <br />
              <p>
